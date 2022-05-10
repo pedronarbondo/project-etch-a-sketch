@@ -24,14 +24,23 @@ header h2 {
     margin-top: 30px;
     background-color: skyblue;
     text-align: center;
-    height: 60px;
+    height: 70px;
     width: 100%;
+    gap: 100px
 }
 
 .new-grid {
-    width: 100px;
-    height: 40px;
+    width: 130px;
+    height: 50px;
     border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+.new-grid:hover {
+    background-color: orange;
 }
 
 .grid-container {
@@ -42,11 +51,24 @@ header h2 {
     height: 960px;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 100px;
     padding: 0px;
-    border: solid red 1px;
 }
 
 .babyGrid {
-    border: solid black 1px;
+    border: solid blue 1px;
     box-sizing: border-box;
+    background-color: lightgray;
+}
+
+.slider {
+    width: 80%;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    
+}
+
+.sliderDiv {
+    width: 400px;
 }
