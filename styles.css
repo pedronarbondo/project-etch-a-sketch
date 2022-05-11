@@ -3,18 +3,26 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0px;
+    background-image: linear-gradient(red, yellow);
+
 }
 
 header {
-    height: 100px;
+    height: 200px;
     width: 100%;
-    background-color: coral;
     text-align: center;
 }
+header {
+    text-shadow: 2px 0.5px;
+}
 
-header h2 {
-    font-size: 30px;
+header h1 {
+    font-size: 60px;
     align-self: center;
+}
+header h2 {
+    font-size: 40px;
+    margin-top: -10px;
 }
 
 .grid-header {
@@ -22,21 +30,22 @@ header h2 {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    background-color: skyblue;
     text-align: center;
     height: 70px;
     width: 100%;
-    gap: 100px
+    gap: 40px
 }
 
 .new-grid {
-    width: 130px;
-    height: 50px;
+    width: 150px;
+    height: 60px;
+    box-shadow: 3px 3px;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
     transition: background-color 0.5s;
+    background-color: yellow;
 }
 
 .new-grid:hover {
@@ -53,10 +62,10 @@ header h2 {
     margin-top: 30px;
     margin-bottom: 100px;
     padding: 0px;
+    box-shadow: 10px 10px;
 }
 
 .babyGrid {
-    border: solid blue 1px;
     box-sizing: border-box;
     background-color: lightgray;
 }
@@ -71,4 +80,12 @@ header h2 {
 
 .sliderDiv {
     width: 400px;
+}
+.colorDiv p {
+    margin-top: auto;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 20px;
 }

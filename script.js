@@ -15,11 +15,14 @@ function createGrid(amount){
     } 
 }
 
-
 function letsPaint(amount){
 createGrid(amount);
 let innerDivs = document.querySelectorAll(".babyGrid");
-innerDivs.forEach(babyDiv => babyDiv.addEventListener('mouseover', () => babyDiv.style.backgroundColor = "black"));
+innerDivs.forEach(babyDiv => babyDiv.addEventListener('mousemove', () => {
+    let colorPicker = document.querySelector(".colorinput");
+    let bgColor = colorPicker.value;
+    babyDiv.style.backgroundColor = `${bgColor}`
+}));
 let newGridBtn = document.querySelector("button");
 newGridBtn.addEventListener ("click", () => 
     innerDivs.forEach(babyDiv => babyDiv.style.backgroundColor = "lightgray"))
