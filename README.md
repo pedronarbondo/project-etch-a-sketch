@@ -1,4 +1,6 @@
 # top-etch-a-sketch
+See it hosted @ https://pedronarbondo.github.io/project-etch-a-sketch/
+
 
 This next project should be challenging. Per the assignment notes: "In this project, you’ll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills. You’re going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
